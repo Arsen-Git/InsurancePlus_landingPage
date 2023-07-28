@@ -1,0 +1,71 @@
+.hero__container{
+    background-image: linear-gradient(to top, #566A82 0%, #566A82 53%, transparent 53.1%);
+}
+
+.hero__content{
+    display: flex;
+    justify-content: space-between;
+    width: 1165px;
+    height: 500px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 30px;
+    margin-top: 90px;
+}
+
+.hero__info{
+    margin-top: 124px;
+    margin-left: 60px;
+}
+
+.hero__info__title{
+    font-size: 36px;
+    line-height: 42px;
+    color: #0D1C41;
+    margin-bottom: 6px;
+}
+
+.hero__info__title-thin{
+    font-style: italic;
+    font-weight: 50;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0D1C41;
+}
+
+.hero__info__text{
+    max-width: 365px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0D1C41;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero__info__btn{
+    display: inline-block;
+    text-decoration: none;
+    width: 265px;
+    background: #FFFFFF;
+    border: 1px solid #4A607A;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+
+    outline: 3px solid transparent;
+    transition: 0.4s outline;
+}
+
+.hero__info__btn:hover{
+    outline: 3px solid #4A607A;
+}
+
+.hero__logo{
+    margin: 50px 60px;
+}

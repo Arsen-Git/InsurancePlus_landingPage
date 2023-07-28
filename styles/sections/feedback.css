@@ -1,0 +1,132 @@
+.feedback__container{
+    padding-top: 60px;
+}
+
+section.feedback__container h2.section__title{
+    margin-bottom: 32px;
+}
+
+.feedback__content{
+    width: 1165px;
+    margin: 45px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.feedback__form{
+    box-sizing: border-box;
+
+    width: 435px;
+    padding: 35px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+}
+
+.feedback__line{
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__line__caption{
+    margin-left: 10px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.feedback__line__content{
+    padding: 17px 24px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 10px;
+    border: none;
+}
+
+label.feedback__line select.feedback__line__content{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D1C41;
+}
+
+.feedback__choise{
+    position: relative;
+}
+
+.feedback__choise::after{
+    content: "";
+    position: absolute;
+    top: 28px;
+    right: 30px;
+    border: 5px solid transparent;
+    border-top-color: black;
+}
+
+div.feedback__choise select.feedback__line__content{
+    width: 100%;
+}
+
+.feedback__line__check{
+    display: flex;
+}
+
+.feedback__manage__container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 65px;
+    margin-top: 25px;
+}
+
+.feedback__reset-btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    border: none;
+    background: #FFFFFF;
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.feedback__reset-btn:hover{
+    color: #4A607A;
+}
+
+.feedback__submit-btn{
+    padding: 23px 63px;
+
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    background: #FFFFFF;
+    border: 1px solid #4A607A;
+    outline: 3px solid transparent;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+
+    color: #000000;
+
+    cursor: pointer;
+    transition: outline 0.4s;
+}
+
+.feedback__submit-btn:hover{
+    outline: 3px solid #4A607A;
+}

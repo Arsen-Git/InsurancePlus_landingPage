@@ -1,0 +1,36 @@
+.title-conditions{
+    padding-bottom: 80px;
+    padding-top: 56px;
+}
+
+.conditions__content__wrapper{
+    width: 924px;
+    margin: 0 auto;
+}
+
+.conditions__content{
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.conditions__content__info{
+    width: 344px;
+}
+
+.conditions__content__title{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.conditions__content__text{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0D1C41;
+}
